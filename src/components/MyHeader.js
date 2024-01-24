@@ -6,7 +6,7 @@ const MyHeader = ({ headText, leftChild, rightChild }) => {
 
   return (
     <header>
-      <div className="heartImgContainer">
+      {/* <div className="heartImgContainer">
         <div className="heartImg">
           <img src={heartImg} />
         </div>
@@ -14,7 +14,7 @@ const MyHeader = ({ headText, leftChild, rightChild }) => {
         <div className="heartImg">
           <img src={heartImg} />
         </div>
-      </div>
+      </div> */}
       <div className="headerContent">
         <div className="head_btn_left">{leftChild}</div>
         <div className="head_text">{headText}</div>
